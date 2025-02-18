@@ -1,1 +1,109 @@
+body{
+    
+    background: linear-gradient(to top, #42678d, #95a5a6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
 
+@media screen and (min-width: 1000px){
+
+
+    .cercle1 {
+        margin-left: clamp(30rem, 60%, 80rem);
+        width: clamp(1.6rem, 9rem, 30rem);
+        height: clamp(1.6rem, 9rem, 30rem);
+    }
+
+    .cercle2 {
+        margin-left: 16rem;
+        transform: translateX(100%);
+    }
+
+    .cercle-content {
+        height: 100%;
+        font-size: 5rem;
+    }
+    .img{
+        max-width: clamp(180px, 12%, 200px);
+    }
+
+
+}
+
+.sub-titles{ 
+    color: #4d5b69;
+    margin: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(1.4rem, 2.6vw, 6rem);
+}
+
+hr{
+    border-color: #42678d;
+
+}
+
+#title{
+    text-align: center;
+    color:#244565;
+    font-size: clamp(1.6rem, 3vw, 2.5rem);
+}
+
+.description{
+    text-align: center;
+    color: #2c2c2c;
+    font-size: clamp(1rem, 2vw, 1.4rem);
+    font-family:'Lucida Grande';
+}
+
+.project-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 0rem; 
+    margin-top: 2rem;
+    flex-wrap: wrap; 
+}
+
+.cercle1, .cercle2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: clamp(5rem, 7vw, 10rem);
+    height: clamp(5rem, 7vw, 10rem);
+    border-radius: 50%;
+    background-color: #244565;
+    border: solid 2px #244565;
+    position: relative;
+}
+
+.cercle-content {
+    color: white;
+    font-size: clamp(2rem, 3vw, 4rem);
+    font-weight: bold;
+}
+
+.circle-title {
+    position: absolute;
+    bottom: -3rem;
+    width: 100%;
+    text-align: center;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    color: #2c2c2c;
+}
+
+
+.img{
+    max-width: clamp(100px, 20%, 200px);
+    display: block;
+    margin: 1rem auto;
+    
+}
+
+#footer{
+    
+    margin-top: 2rem auto;
+    text-align: center;
+    color: white;
+    padding: 0rem;
+}
