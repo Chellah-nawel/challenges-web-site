@@ -56,40 +56,32 @@ hr{
     font-family:'Lucida Grande';
 }
 
-.project-container {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    gap: 0rem; 
-    margin-top: 2rem;
-    flex-wrap: wrap; 
+.cercle1 {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-left:10%;
+    background-color: #244565;
+    border: solid 2px #244565;
 }
 
-.cercle1, .cercle2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: clamp(5rem, 7vw, 10rem);
-    height: clamp(5rem, 7vw, 10rem);
+.cercle2{
+    width: 6rem;
+    height: 6rem;
     border-radius: 50%;
     background-color: #244565;
     border: solid 2px #244565;
-    position: relative;
+    margin-left: 58%;
+    margin-bottom: 0%;
+    transform: translateY(-100%);
 }
 
 .cercle-content {
     color: white;
-    font-size: clamp(2rem, 3vw, 4rem);
+    font-size: 3rem;
+    margin:20%;
     font-weight: bold;
-}
-
-.circle-title {
-    position: absolute;
-    bottom: -3rem;
-    width: 100%;
     text-align: center;
-    font-size: clamp(1.2rem, 2vw, 2rem);
-    color: #2c2c2c;
 }
 
 
